@@ -157,6 +157,40 @@ $ARGUMENTS
 
 `$ARGUMENTS` 会被 Skill 工具传入的 `args` 替换。
 
+### 可用技能
+
+项目内置以下技能：
+
+#### 1. codebase-to-course
+
+将任何代码库转换为精美的交互式单页HTML课程。
+
+**功能特点：**
+- 生成自包含的HTML文件，包含滚动式导航、动画可视化和嵌入式测验
+- 代码↔通俗语言并排翻译
+- 适合"vibe coders"（使用AI编程工具但缺乏传统CS教育的开发者）
+- 交互式测验测试应用能力而非记忆
+
+**使用方式：**
+```
+将此代码库转换为课程
+创建交互式教程
+教我这段代码如何工作
+```
+
+**详细文档：** [skills/codebase-to-course/README.md](skills/codebase-to-course/README.md)
+
+#### 2. ui-ux-pro-max
+
+UI/UX设计智能助手。
+
+**功能特点：**
+- 50+ UI样式、21种配色方案、50种字体组合
+- 20种图表类型、9种技术栈支持
+- 产品推荐、UX指南和技术栈最佳实践
+
+**详细文档：** [skills/ui-ux-pro-max/SKILL.md](skills/ui-ux-pro-max/SKILL.md)
+
 ---
 
 ## Task 子代理（MVP）
